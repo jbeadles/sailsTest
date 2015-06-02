@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="app">
+    <head>
+        <title>My index</title>
+        <!-- vendorInject:css -->
+        <!-- endinject -->
+        
+        <!-- inject:css -->
+        <!-- endinject -->
+    </head>
+    <body ng-controller="LoginController as login">
+        <button ng-click="login.login()">Login</button>
+        
+        <!-- vendorInject:js -->
+        <script src="vendor/angular.js"></script>
+        <!-- endinject -->
+        
+        <!-- inject:js -->
+        <script src="app.js"></script>
+        <script src="login.controller.js"></script>
+        <!-- endinject -->
+    </body>
+</html>
